@@ -1,0 +1,47 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+header h3,p{
+	color: #AAAAAA;
+    text-align: center;
+}
+
+header h2{
+	text-align: center;
+}
+.lists{
+	width: 500px;
+    margin: 0 auto;
+}
+
+header ul{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+header ul li{
+	
+	text-decoration: none;
+	list-style: none;
+
+}
+.list1{
+   text-decoration: underline solid green 20%;
+
+}
+
+.cards{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+.card img{
+ width: 30%;
+ height: auto;
+left: 5%;
+}
